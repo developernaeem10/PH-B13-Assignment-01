@@ -73,7 +73,7 @@ nav ul a {
   color: #000000;
 }
 .banner-section {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -196,7 +196,12 @@ nav ul a {
   /* box-shadow: 20px 0px 0px 1px #F7F6F2; */
 }
 .note-image {
-  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 30px;
   /* width: 50px; */
   /* padding: 16px; */
   background-color: #f95555;
