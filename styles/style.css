@@ -235,18 +235,17 @@ nav ul a {
   justify-content: space-around;
   gap: 60px;
   padding: 120px;
+  border: 1px solid red;
 }
 .brain-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-
 }
 .brain-details h5 {
   font-size: 16px;
   font-weight: 500;
-  color: #30B868;
+  color: #30b868;
   padding-bottom: 24px;
 }
 .brain-details h2 {
@@ -269,3 +268,101 @@ nav ul a {
   font-weight: 500;
   padding-bottom: 16px;
 }
+.early-access {
+  padding: 0px 120px 120px 120px;
+}
+.early-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+  padding: 80px 40px;
+  background-color: #f7f6f2;
+}
+.access-btn {
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+}
+.early-items h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #001931;
+  padding-bottom: 18px;
+}
+.early-items p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.early-items div {
+  padding-bottom: 18px;
+}
+.early-items button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #30b868;
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  background: var(--#30B868, rgba(70, 145, 101, 1));
+}
+.early-items h6 {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer {
+  background-color: #001931;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 120px 80px 120px;
+}
+/* .footer-social {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer-img {
+  display: flex;
+  gap: 16px;
+}
+.social {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+.social-img {
+  margin-right: 100px;
+}
+
+.hrp {
+  padding: 0px 120px 30px 120px;
+}
+/* .hrp hr {
+  border: 0.5px solid #E5E7EB;
+} */
+
+.hrp p {
+  text-align: center;
+  padding-top: 30px;
+  color: #FAFAFA;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #627382;
+}
+
